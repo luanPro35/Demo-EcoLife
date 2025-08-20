@@ -1,0 +1,18 @@
+{
+  "greeting": "Hello, Welcome to EcoLife!",
+  "settings": "Settings",
+  "home": "Home",
+  "products": "Products",
+  "cart": "Cart",
+  "orders": "Orders",
+  "profile": "Profile",
+  "login": "Login",
+  "logout": "Logout",
+  "register": "Register",
+  "activities": "Activities",
+  "leaderboard": "Leaderboard",
+  "suggestions": "Suggestions",
+  "chat": "Chat",
+  "admin": "Admin",
+  "changePassword": "Change Password"
+}

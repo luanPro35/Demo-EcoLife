@@ -1,0 +1,18 @@
+{
+  "greeting": "Xin chào, Chào mừng đến với EcoLife!",
+  "settings": "Cài đặt",
+  "home": "Trang chủ",
+  "products": "Sản phẩm",
+  "cart": "Giỏ hàng",
+  "orders": "Đơn hàng",
+  "profile": "Hồ sơ",
+  "login": "Đăng nhập",
+  "logout": "Đăng xuất",
+  "register": "Đăng ký",
+  "activities": "Hoạt động",
+  "leaderboard": "Bảng xếp hạng",
+  "suggestions": "Gợi ý",
+  "chat": "Trò chuyện",
+  "admin": "Quản trị",
+  "changePassword": "Đổi mật khẩu"
+}
