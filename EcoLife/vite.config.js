@@ -40,4 +40,12 @@ export default defineConfig({
     strictPort: false,
     open: true,
   },
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: "assets/[name][extname]",
+      },
+    },
+  },
+  // Environment variables are automatically available via import.meta.env
 });
