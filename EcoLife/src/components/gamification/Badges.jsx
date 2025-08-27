@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Badges = () => {
   // Mock data - would be replaced with actual user badges from Firebase
@@ -81,7 +81,15 @@ const Badges = () => {
     },
   ]);
 
-  const [filter, setFilter] = useState("all"); // all, earned, not-earned
+  const [filter, setFilter] = useState("all");
+
+  const toggleBadge = (id) => {
+    setBadges(
+      badges.map((badge) =>
+        badge.id === id ? { ...badge, earned: !badge.earned } : badge
+      )
+    );
+  };
 
   const filteredBadges = badges.filter((badge) => {
     if (filter === "all") return true;
@@ -205,6 +213,12 @@ const Badges = () => {
                 </p>
               </div>
             )}
+            <button
+              onClick={() => toggleBadge(badge.id)}
+              className="mt-2 px-4 py-2 bg-primary-500 text-white rounded-full text-sm"
+            >
+              Toggle Earned
+            </button>
           </div>
         ))}
       </div>
